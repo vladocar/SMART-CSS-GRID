@@ -1,0 +1,36 @@
+.main {
+  margin: 0 auto;
+  width: 960px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(12, calc(8.333% - 10px))
+}
+
+.one { grid-column: auto / span 1 }
+.two { grid-column: auto / span 2 }
+.three { grid-column: auto / span 3 }
+.four { grid-column: auto / span 4 }
+.five { grid-column: auto / span 5 }
+.six { grid-column: auto / span 6 }
+.seven { grid-column: auto / span 7 }
+.eight { grid-column: auto / span 8 }
+.nine { grid-column: auto / span 9 }
+.ten { grid-column: auto / span 10 }
+.eleven { grid-column: auto / span 11 }
+.twelve { grid-column: auto / span 12 }
+
+.merge-two-rows{ grid-row: auto / span 2 }
+.merge-three-rows{ grid-row: auto / span 3 }
+.merge-four-rows{ grid-row: auto / span 4 }
+.merge-five-rows{ grid-row: auto / span 5 }
+.merge-six-rows{ grid-row: auto / span 6 }
+
+.nested{ display: grid; grid-gap: 10px;
+grid-template-columns: repeat(12, calc(8.333% - 10px)) }
+
+@media only screen and (max-width: 480px)   {
+  .main{ width: 100% }
+      .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven{
+        grid-column: auto / span 12
+      }
+  }
