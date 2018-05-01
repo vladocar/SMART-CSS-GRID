@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Smart CSS Grid</title>
+
+    <link rel="stylesheet" href="smart-grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+    <style>
+	body {
+    font-size-adjust:none;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font:14px/1.5 Helvetica,Arial, sans-serif;
+	}
+
+h1,h2{margin: 5px 0; font-family: 'Montserrat', sans-serif; }
+h1{font-size: 48px; line-height:1.18; color:#E01266;}
+h2{font-size: 21px; line-height:1.3;}
+
+
+  .center{
+    text-align: center;
+  }
+  p {float:left;}
+  p  img {float:left; margin-right: 10px}
+
+  @media only screen and (max-width: 480px)   {
+    .main{ width: 100% }
+        .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven{
+          grid-column: auto / span 12
+        }
+
+        .one{
+          grid-column: auto / span 6
+        }
+
+        #test,#test1{
+            grid-column: auto / span 12; background-color: red; grid-row: auto;
+        }
+
+    }
+
+   </style>
+</head>
+
+ <body>
+
+	 <div class="main">
+    <div class="twelve center"><img id="logo" src="smart-grid-logo.svg"> </div>
+    <div class="twelve center"><h1> SMART GRID </h1> <h2>Minimal Responsive Grid System</h2></div>
+
+    <div class="six">
+      <p>Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Integer viverra consequat nisi. Donec rutrum turpis non eros. Pellentesque mauris. Sed facilisis augue quis enim. Quisque posuere, velit sit amet iaculis venenatis, dui lectus molestie magna, vel fringilla ante nunc eget urna. Nam eget lorem sit amet enim egestas pharetra.
+      Vivamus cursus. </p>
+
+      <p>Suspendisse potenti. Etiam sollicitudin. Vestibulum lacinia erat id neque. Morbi dolor. Nunc justo quam, pulvinar a, sagittis et, malesuada eget, nibh. Suspendisse laoreet risus ac quam. Mauris arcu.
+       </p>
+       <p>Morbi nunc. Cras in metus. Vestibulum mattis. Praesent interdum. In hac habitasse platea dictumst. Nunc commodo nisl ut turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tristique, augue sit amet bibendum ullamcorper, ipsum nisl malesuada arcu, ac aliquet tellus justo eu nisl. Vestibulum nec est.</p>
+
+    </div>
+    <div class="three">
+      <p><img src="100g.gif" /> Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam.</p>
+      <p><img src="100g.gif" /> Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Morbi nunc. Cras in metus. Vestibulum mattis. Praesent interdum. In hac habitasse platea dictumst.</p>
+    </div>
+    <div class="three">
+      <p><img src="100g.gif" /> Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam.</p>
+      <p><img src="100g.gif" /> Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Morbi nunc. Cras in metus. Vestibulum mattis. Praesent interdum. In hac habitasse platea dictumst.</p>
+    </div>
+
+    <div class="three">
+      <p>
+      <img src="100g.gif" />
+      Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Integer viverra consequat nisi. Donec rutrum turpis non eros. Pellentesque mauris. Sed facilisis augue quis enim. Quisque posuere, velit sit amet iaculis venenatis, dui lectus molestie magna, vel fringilla ante nunc eget urna. Nam eget lorem sit amet enim egestas pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+      </p>
+    </div>
+    <div class="three">
+      <p>
+      <img src="100g.gif" />
+      Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Integer viverra consequat nisi. Donec rutrum turpis non eros. Pellentesque mauris. Sed facilisis augue quis enim. Quisque posuere, velit sit amet iaculis venenatis, dui lectus molestie magna, vel fringilla ante nunc eget urna. Nam eget lorem sit amet enim egestas pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+      </p>
+    </div>
+    <div class="three">
+      <p>
+      <img src="100g.gif" />
+      Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Integer viverra consequat nisi. Donec rutrum turpis non eros. Pellentesque mauris. Sed facilisis augue quis enim. Quisque posuere, velit sit amet iaculis venenatis, dui lectus molestie magna, vel fringilla ante nunc eget urna. Nam eget lorem sit amet enim egestas pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+      </p>
+    </div>
+    <div class="three">
+      <p>
+      <img src="100g.gif" />
+      Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Integer viverra consequat nisi. Donec rutrum turpis non eros. Pellentesque mauris. Sed facilisis augue quis enim. Quisque posuere, velit sit amet iaculis venenatis, dui lectus molestie magna, vel fringilla ante nunc eget urna. Nam eget lorem sit amet enim egestas pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+      </p>
+    </div>
+
+    <div class="four">
+      <p>Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Integer viverra consequat nisi. Donec rutrum turpis non eros. Pellentesque mauris. Sed facilisis augue quis enim. Quisque posuere, velit sit amet iaculis venenatis, dui lectus molestie magna, vel fringilla ante nunc eget urna. Nam eget lorem sit amet enim egestas pharetra.
+      </p>
+    </div>
+    <div class="four">
+      <p>Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Integer viverra consequat nisi. Donec rutrum turpis non eros. Pellentesque mauris. Sed facilisis augue quis enim. Quisque posuere, velit sit amet iaculis venenatis, dui lectus molestie magna, vel fringilla ante nunc eget urna. Nam eget lorem sit amet enim egestas pharetra.
+      </p>
+    </div>
+    <div class="four">
+      <p>Praesent et ipsum fermentum metus convallis consequat. Suspendisse in quam. Integer viverra consequat nisi. Donec rutrum turpis non eros. Pellentesque mauris. Sed facilisis augue quis enim. Quisque posuere, velit sit amet iaculis venenatis, dui lectus molestie magna, vel fringilla ante nunc eget urna. Nam eget lorem sit amet enim egestas pharetra.
+      </p>
+    </div>
+
+      <div class="twelve"><h2>Summary</h2>
+        <p>Smart Grid is CSS fluid responsive layout system with 12 columns and it is only 0.5 KB. Clear syntax. No unnecessary div nesting, meaning you will write less HTML.</p>
+      </div>
+
+	</div>
+</body></html>
