@@ -10,3 +10,5 @@ Smart CSS Grid is CSS GRID based fluid responsive layout system with 12 columns.
 * Supports rows merging, nesting columns, column swapping..
 
 [https://vladocar.github.io/SMART-CSS-GRID/](https://vladocar.github.io/SMART-CSS-GRID/)
+
+[Demo 1](https://vladocar.github.io/SMART-CSS-GRID/Smart-Grid-Demo.html)
