@@ -1,7 +1,7 @@
 .main {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(12, fr);
+    grid-template-columns: repeat(12, 1fr);
     margin: 0 auto;
     width: 100%;
     max-width: 1280px;
