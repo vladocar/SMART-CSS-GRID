@@ -4,6 +4,7 @@
     grid-template-columns: repeat(12, fr);
     margin: 0 auto;
     width: 100%;
+    max-width: 1280px;
 }
 
 .one, .two, .three, .four, .five, .six,
@@ -24,10 +25,6 @@
 .merge-six-rows { grid-row: auto / span 6 }
 
 @media only screen and (min-width: 481px) {
-    .main {
-        max-width: 1280px;
-    }
-
     .one { grid-column: auto / span 1 }
     .two { grid-column: auto / span 2 }
     .three { grid-column: auto / span 3 }
