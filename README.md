@@ -1,4 +1,6 @@
-# SMART CSS GRID - Minimal CSS Framework
+<p align="center"><img src="smart-grid-logo.svg" /></p>
+
+<h1 align="center"> SMART CSS GRID - Minimal CSS Framework </h1>
 
 Smart CSS Grid is CSS GRID based fluid responsive layout system with 12 columns.  
 
