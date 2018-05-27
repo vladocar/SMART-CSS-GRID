@@ -18,3 +18,7 @@ The project is designed to adapt to any size or any column gap. You can change t
 [Demo 1](https://vladocar.github.io/SMART-CSS-GRID/Smart-Grid-Demo.html)
 
 [Read more on my blog..](http://www.vcarrer.com/2018/05/smart-css-grid.html)
+
+### License
+
+This project is licensed under the MIT License
