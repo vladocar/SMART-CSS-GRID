@@ -1,3 +1,9 @@
+[![License MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
+[![Gzip Size](https://img.badgesize.io/https://unpkg.com/smart-css-grid@1.0.0/smart-grid.css?compression=gzip)](https://unpkg.com/smart-css-grid@1.0.0/smart-grid.css)
+
+
+
+
 <p align="center"><img src="smart-grid-logo.svg" /></p>
 
 <h2 align="center"> SMART CSS GRID - Minimal CSS Framework </h2>
