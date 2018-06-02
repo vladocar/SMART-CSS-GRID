@@ -30,6 +30,12 @@ You can simply download the library or use:
 $ npm i smart-css-grid
 ```
 
+You can use PKG CDN:
+
+```html
+ <link rel="stylesheet" href="https://unpkg.com/smart-css-grid@1.0.0/smart-grid.css">
+```
+
 ### License
 
 This project is licensed under the MIT License
