@@ -21,6 +21,15 @@ The project is designed to adapt to any size or any column gap. You can change t
 
 [Read more on my blog..](http://www.vcarrer.com/2018/05/smart-css-grid.html)
 
+
+## Download or Install
+
+You can simply download the library or use:
+
+```
+$ npm i smart-css-grid
+```
+
 ### License
 
 This project is licensed under the MIT License
